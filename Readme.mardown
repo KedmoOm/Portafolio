@@ -1,0 +1,11 @@
+## Caso de Uso: Automatización de Informes de Ventas
+
+### Objetivo
+
+Automatizar la generación de informes mensuales de ventas que extraen datos de un archivo Excel y generan un informe en formato PDF, proporcionando análisis clave sobre el rendimiento del equipo de ventas.
+
+### Herramientas Necesarias
+
+- **UiPath Studio**: Para crear el flujo de trabajo de automatización.
+- **Microsoft Excel**: Para almacenar y gestionar los datos de ventas.
+- **Adobe Acrobat o similar**: Para generar informes en PDF.
