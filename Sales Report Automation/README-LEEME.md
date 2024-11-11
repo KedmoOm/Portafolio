@@ -1,6 +1,76 @@
 ### Videos of the demonstration of the creation of the project: https://www.youtube.com/playlist?list=PLmolEnkTZku7XiWfIV3ZxWhViavZED2U3
 ***
+## Caso de Uso: Automatización de Informes de Ventas
 
+### Objetivo
+
+Automatizar la generación de informes mensuales de ventas que extraigan datos de un archivo de Excel y produzcan un informe en formato PDF. La automatización incluirá:
+Filtrado y Análisis: Utilizar actividades como "Filtrar DataTable" para segmentar los datos por producto, permitiendo un análisis específico del rendimiento de ventas.
+Cálculo de Indicadores Clave de Rendimiento (KPI): Aprovechar los datos disponibles (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total) para calcular métricas esenciales, incluyendo:
+Ventas Totales Mensuales: Calcular el monto total de ventas para cada mes sumando el "Precio Total" de todas las transacciones registradas dentro de ese mes. Esto proporcionará una visión completa de los ingresos generados mensualmente.
+Cantidad Vendida por Producto: Contar la cantidad total vendida para cada producto para identificar el rendimiento y las necesidades de inventario.
+
+### Herramientas Requeridas
+
+- **UiPath Studio**: Para crear el flujo de trabajo de automatización.
+- **Microsoft Excel**: Para almacenar y gestionar los datos de ventas.
+
+## Pasos para la Automatización 
+
+### 1. **Recolección de Datos**
+
+- **Estructura del Archivo Excel**: Asegúrate de que el archivo Excel contenga columnas como:
+    - Fecha
+    - Nombre del Vendedor
+    - Producto Vendido
+    - Cantidad Vendida
+    - Precio Total
+    
+### 2. **Creación del Flujo de Trabajo en UiPath**
+
+- **Inicio del Proceso**:
+    - Utiliza la actividad "Alcance de Aplicación Excel" para abrir el archivo Excel.
+- **Lectura de Datos**:
+    - Emplea la actividad "Leer Rango" para extraer todos los datos relevantes en una variable DataTable.
+- **Filtrado y Análisis**:
+    - Usa actividades como "Filtrar DataTable" para segmentar los datos por vendedor o producto según sea necesario.
+    - **Calcular Indicadores Clave de Rendimiento (KPI)**:
+        - Utiliza los datos disponibles (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total) para calcular métricas importantes. Por ejemplo:
+            - **Ventas Totales Mensuales**: Calcula el monto total de ventas para cada mes sumando el "Precio Total" de todas las transacciones registradas dentro de ese mes. Esto te dará una visión clara de cuánto ingreso se generó cada mes.
+            - **Cantidad Vendida por Producto**: Cuenta la cantidad total vendida para cada producto.
+
+### 3. **Generación del Informe**
+
+- **Diseño del Informe**:
+    - Utiliza una plantilla predefinida en Word o crea un nuevo documento donde se insertarán los resultados.
+    - Usa la actividad "Alcance de Aplicación Word" para abrir y modificar el documento.
+- **Inserción de Datos**:
+    - Inserta los resultados calculados en el documento, utilizando marcadores o tablas para una presentación clara.
+
+### 4. **Exportación a PDF**
+
+- Una vez que el informe esté completo en Word, utiliza la actividad "Exportar a PDF" para guardar el documento en formato PDF.
+
+### Resultados Esperados
+
+- **Ahorro de Tiempo**: La automatización reduce significativamente el tiempo requerido para compilar y generar informes, permitiendo al equipo centrarse en análisis más estratégicos.
+- **Mejora en la Precisión**: Al eliminar la entrada manual, se reducen los errores en los informes.
+- **Informes Consistentes**: Los informes generados son consistentes en formato y contenido, facilitando la toma de decisiones basada en datos.
+
+### Puntos a Aclarar y Mejoras
+- Solo necesitas colocar un archivo de Excel en la carpeta "Input", el nombre no importa. Lo único importante es que debe haber solo un archivo, ya que múltiples archivos en la carpeta pueden sobrescribir información y causar errores.
+- Todo este proyecto trabaja con archivos Excel que tienen la misma estructura. Los únicos pasos que el usuario necesita seguir son: copiar y pegar el Excel en la carpeta "Input" del proyecto, ejecutar el proceso y el informe debería aparecer en la carpeta "Output" del proyecto. (La única especificación requerida es el formato de datos para "Date").
+- El formato de fecha podría ser, por ejemplo: Agu día-año, Dic día-año, Oct día-año (Tiene que ser un formato con los meses en ingles).
+- El proceso debería funcionar correctamente con otros datos que sigan la misma estructura u orden: (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total).
+- Cuando el proyecto termine, puedes mover el archivo de Excel con la información nueva y antigua a otra carpeta o eliminarlo. Una vez que la carpeta 'input' esté vacía, puedes añadir un nuevo archivo de Excel."
+- Algunas actividades fueron renombradas por claridad.
+- Todo este proyecto fue creado sin el uso de tutoriales en video o documentación, confiando únicamente en mis propias habilidades y conocimientos adquiridos en UiPath Academy para demostrar habilidades de resolución de problemas.
+
+### Puntos que Aprendí:
+- Debo copiar todos los datos predeterminados y hacer modificaciones en otra hoja o archivo para evitar pérdida de datos.
+- En la actividad "Leer Rango", se debe incluir solo las columnas o datos específicos necesarios para cálculos o análisis para evitar procesamiento adicional y uso innecesario de memoria.
+
+***
 ## Use Case: Sales Report Automation
 
 ### Objective
@@ -71,76 +141,4 @@ Quantity Sold per Product: Count the total quantity sold for each product to ide
 
 ### Points I learned:
 - I should copy all of the default data and make modifications in another sheet or file to avoid data loss.
-- In the "Read Range" activity, we should include only the columns or specific data needed for calculations or analysis to avoid extra proccesing and memory usage.
-
-***
-
-## Caso de Uso: Automatización de Informes de Ventas
-
-### Objetivo
-
-Automatizar la generación de informes mensuales de ventas que extraigan datos de un archivo de Excel y produzcan un informe en formato PDF. La automatización incluirá:
-Filtrado y Análisis: Utilizar actividades como "Filtrar DataTable" para segmentar los datos por producto, permitiendo un análisis específico del rendimiento de ventas.
-Cálculo de Indicadores Clave de Rendimiento (KPI): Aprovechar los datos disponibles (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total) para calcular métricas esenciales, incluyendo:
-Ventas Totales Mensuales: Calcular el monto total de ventas para cada mes sumando el "Precio Total" de todas las transacciones registradas dentro de ese mes. Esto proporcionará una visión completa de los ingresos generados mensualmente.
-Cantidad Vendida por Producto: Contar la cantidad total vendida para cada producto para identificar el rendimiento y las necesidades de inventario.
-
-### Herramientas Requeridas
-
-- **UiPath Studio**: Para crear el flujo de trabajo de automatización.
-- **Microsoft Excel**: Para almacenar y gestionar los datos de ventas.
-
-## Pasos para la Automatización 
-
-### 1. **Recolección de Datos**
-
-- **Estructura del Archivo Excel**: Asegúrate de que el archivo Excel contenga columnas como:
-    - Fecha
-    - Nombre del Vendedor
-    - Producto Vendido
-    - Cantidad Vendida
-    - Precio Total
-    
-### 2. **Creación del Flujo de Trabajo en UiPath**
-
-- **Inicio del Proceso**:
-    - Utiliza la actividad "Alcance de Aplicación Excel" para abrir el archivo Excel.
-- **Lectura de Datos**:
-    - Emplea la actividad "Leer Rango" para extraer todos los datos relevantes en una variable DataTable.
-- **Filtrado y Análisis**:
-    - Usa actividades como "Filtrar DataTable" para segmentar los datos por vendedor o producto según sea necesario.
-    - **Calcular Indicadores Clave de Rendimiento (KPI)**:
-        - Utiliza los datos disponibles (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total) para calcular métricas importantes. Por ejemplo:
-            - **Ventas Totales Mensuales**: Calcula el monto total de ventas para cada mes sumando el "Precio Total" de todas las transacciones registradas dentro de ese mes. Esto te dará una visión clara de cuánto ingreso se generó cada mes.
-            - **Cantidad Vendida por Producto**: Cuenta la cantidad total vendida para cada producto.
-
-### 3. **Generación del Informe**
-
-- **Diseño del Informe**:
-    - Utiliza una plantilla predefinida en Word o crea un nuevo documento donde se insertarán los resultados.
-    - Usa la actividad "Alcance de Aplicación Word" para abrir y modificar el documento.
-- **Inserción de Datos**:
-    - Inserta los resultados calculados en el documento, utilizando marcadores o tablas para una presentación clara.
-
-### 4. **Exportación a PDF**
-
-- Una vez que el informe esté completo en Word, utiliza la actividad "Exportar a PDF" para guardar el documento en formato PDF.
-
-### Resultados Esperados
-
-- **Ahorro de Tiempo**: La automatización reduce significativamente el tiempo requerido para compilar y generar informes, permitiendo al equipo centrarse en análisis más estratégicos.
-- **Mejora en la Precisión**: Al eliminar la entrada manual, se reducen los errores en los informes.
-- **Informes Consistentes**: Los informes generados son consistentes en formato y contenido, facilitando la toma de decisiones basada en datos.
-
-### Puntos a Aclarar y Mejoras
-- Solo necesitas colocar un archivo de Excel en la carpeta "Input", el nombre no importa. Lo único importante es que debe haber solo un archivo, ya que múltiples archivos en la carpeta pueden sobrescribir información y causar errores.
-- Todo este proyecto trabaja con archivos Excel que tienen la misma estructura. Los únicos pasos que el usuario necesita seguir son: copiar y pegar el Excel en la carpeta "Input" del proyecto, ejecutar el proceso y el informe debería aparecer en la carpeta "Output" del proyecto. (La única especificación requerida es el formato de datos para "Date").
-- El formato de fecha podría ser, por ejemplo: Agu día-año, Dic día-año, Oct día-año (Tiene que ser un formato con los meses en ingles).
-- El proceso debería funcionar correctamente con otros datos que sigan la misma estructura u orden: (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total).
-- Cuando el proyecto termine, puedes mover el archivo de Excel con la información nueva y antigua a otra carpeta o eliminarlo. Una vez que la carpeta 'input' esté vacía, puedes añadir un nuevo archivo de Excel."
-- Algunas actividades fueron renombradas por claridad.
-- Todo este proyecto fue creado sin el uso de tutoriales en video o documentación, confiando únicamente en mis propias habilidades y conocimientos adquiridos en UiPath Academy para demostrar habilidades de resolución de problemas.
-
-### Puntos que Aprendí:
-- Debo copiar todos los datos predeterminados y hacer modificaciones en otra hoja o archivo para evitar pérdida de datos.
-- En la actividad "Leer Rango", se debe incluir solo las columnas o datos específicos necesarios para cálculos o análisis para evitar procesamiento adicional y uso innecesario de memoria.
+- In the "Read Range" activity, we should include only the columns or specific data needed for calculations or analysis to avoid extra proccesing and memory usage
