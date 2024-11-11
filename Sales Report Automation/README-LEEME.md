@@ -1,4 +1,5 @@
 ### Videos of the demonstration of the creation of the project: https://www.youtube.com/playlist?list=PLmolEnkTZku7XiWfIV3ZxWhViavZED2U3
+***
 
 ## Use Case: Sales Report Automation
 
@@ -72,7 +73,7 @@ Quantity Sold per Product: Count the total quantity sold for each product to ide
 - I should copy all of the default data and make modifications in another sheet or file to avoid data loss.
 - In the "Read Range" activity, we should include only the columns or specific data needed for calculations or analysis to avoid extra proccesing and memory usage.
 
-
+***
 
 ## Caso de Uso: Automatización de Informes de Ventas
 
