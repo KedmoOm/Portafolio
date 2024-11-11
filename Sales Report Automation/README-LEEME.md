@@ -1,3 +1,5 @@
+### Videos of the demonstration of the creation of the project: https://www.youtube.com/playlist?list=PLmolEnkTZku7XiWfIV3ZxWhViavZED2U3
+
 ## Use Case: Sales Report Automation
 
 ### Objective
