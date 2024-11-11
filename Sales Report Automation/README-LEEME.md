@@ -57,7 +57,7 @@ Quantity Sold per Product: Count the total quantity sold for each product to ide
 - **Improved Accuracy**: By eliminating manual entry, errors in reports are reduced.
 - **Consistent Reports**: Generated reports are consistent in format and content, facilitating data-driven decision-making. 
 
-###Points to Clarify and Improvements
+### Points to Clarify and Improvements
 - You only need to place one Excel file in the input folder; the name doesn't matter. The only important thing is that there should be only one file, as multiple files in the folder can overwrite information and cause errors.
 - This entire project works with Excel files that have the same structure. The only steps the user needs to follow are: copy and paste the Excel file into the project's "Input" folder, run the process, and the report should appear in the project's "Output" folder. (The only required specification is the data format for "Date").
 - The date format could be, for example: Aug day-year, Dec day-year, Oct day-year.
@@ -66,11 +66,12 @@ Quantity Sold per Product: Count the total quantity sold for each product to ide
 - Some activities were renamed for clarity.
 - This entire project was created without the use of video tutorials or documentation, relying solely on my own skills and knowledge acquired from UiPath Academy to demonstrate problem-solving abilities.
 
-###Points I learned:
+### Points I learned:
 - I should copy all of the default data and make modifications in another sheet or file to avoid data loss.
 - In the "Read Range" activity, we should include only the columns or specific data needed for calculations or analysis to avoid extra proccesing and memory usage.
 
-##########
+
+
 ## Caso de Uso: Automatización de Informes de Ventas
 
 ### Objetivo
