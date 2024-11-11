@@ -4,7 +4,7 @@
 
 Automate the generation of monthly sales reports that extract data from an Excel file and produce a report in PDF format. The automation will include:
 Filtering and Analysis: Utilize activities like "Filter DataTable" to segment the data by product, allowing for targeted analysis of sales performance.
-Calculation of Key Performance Indicators (KPIs): Leverage the available data (Date, Salesperson Name, Product Sold, Quantity Sold, Total Price) to compute essential metrics, including:
+Calculation of Key Performance Indicators (KPIs): Leverage the available data (Date, Product Sold, Quantity Sold, Total Price) to compute essential metrics, including:
 Monthly Total Sales: Calculate the total sales amount for each month by summing the "Total Price" for all transactions recorded within that month. This will provide a comprehensive overview of revenue generated on a monthly basis.
 Quantity Sold per Product: Count the total quantity sold for each product to identify performance and inventory needs.
 
