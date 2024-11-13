@@ -82,7 +82,7 @@ The objective of this automation project is to extract product data, including *
 
 4. **Store Scraped Data**
 
-   - After scraping, I store the extracted data in a structured format (e.g., CSV or Excel) for further analysis or reporting. I use activities like **Write Range** to save the DataTable into an Excel file.
+   - After scraping, I store the extracted data in a DataTable for further analysis or reporting. I use activities like **Write Range** to save the DataTable into an Excel file.
    1. **Filtering data**
       - After storing the data in an Excel file, I filter the data; for example, I eliminate products that don’t have a price.
 
