@@ -1,9 +1,9 @@
 Video de creación del proyecto: https://youtu.be/P8Q_bpAbCwg
 ***
 
-## Use Case: Automatización de la Extracción de Datos de Productos desde un Sitio Web de Comercio Electrónico
+## Caso de uso: Automatización de la Extracción de Datos de Productos desde un Sitio Web de Comercio Electrónico
 
-### Objective
+### Objetivo
 
 El objetivo de este proyecto de automatización es extraer datos de productos, incluyendo **nombres**, **precios** y **calificaciones**, de un sitio web de comercio electrónico accesible públicamente (por ejemplo, Amazon). Esta automatización demostrará la efectividad de los procesos de extracción de datos sin intervención manual.
 
