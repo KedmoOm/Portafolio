@@ -1,4 +1,4 @@
-Video de creación del proyecto: https://youtu.be/P8Q_bpAbCwg
+Video de creación del proyecto/Project creation video: https://youtu.be/P8Q_bpAbCwg
 ***
 
 ## Caso de uso: Automatización de la Extracción de Datos de Productos desde un Sitio Web de Comercio Electrónico
