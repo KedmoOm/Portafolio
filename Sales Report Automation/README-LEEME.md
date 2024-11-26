@@ -1,4 +1,4 @@
-### Video de creación del proyecto: https://www.youtube.com/playlist?list=PLmolEnkTZku7XiWfIV3ZxWhViavZED2U3
+### Video de creación del proyecto/Project creation video: https://www.youtube.com/playlist?list=PLmolEnkTZku7XiWfIV3ZxWhViavZED2U3
 ***
 ## Caso de Uso: Automatización de Informes de Ventas
 
