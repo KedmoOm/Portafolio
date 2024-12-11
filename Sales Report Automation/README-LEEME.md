@@ -64,7 +64,7 @@ Cantidad Vendida por Producto: Contar la cantidad total vendida para cada produc
 - El proceso debería funcionar correctamente con otros datos que sigan la misma estructura u orden: (Fecha, Nombre del Vendedor, Producto Vendido, Cantidad Vendida, Precio Total).
 - Cuando el proyecto termine, puedes mover el archivo de Excel con la información nueva y antigua a otra carpeta o eliminarlo. Una vez que la carpeta 'input' esté vacía, puedes añadir un nuevo archivo de Excel."
 - Algunas actividades fueron renombradas por claridad.
-- Todo este proyecto fue creado sin el uso de tutoriales en video o documentación, confiando únicamente en mis propias habilidades y conocimientos adquiridos en UiPath Academy para demostrar habilidades de resolución de problemas.
+- Todo este proyecto fue creado sin el uso de tutoriales ni videos o documentación, confiando únicamente en mis propias habilidades y conocimientos adquiridos en UiPath Academy para demostrar habilidades de resolución de problemas.
 
 ### Puntos que Aprendí:
 - Debo copiar todos los datos predeterminados y hacer modificaciones en otra hoja o archivo para evitar pérdida de datos.
@@ -137,7 +137,7 @@ Quantity Sold per Product: Count the total quantity sold for each product to ide
 - The process should work correctly with other data that follows the same structure or order: (Date, Seller's Name, Product Sold, Quantity Sold, Total Price).
 - When the project ends, you can move the Excel file with the new and old information to another folder or delete it. Once the 'input' folder is empty, you can add a new Excel file.
 - Some activities were renamed for clarity.
-- This entire project was created without the use of video tutorials or documentation, relying solely on my own skills and knowledge acquired from UiPath Academy to demonstrate problem-solving abilities.
+- This entire project was created without the use of videos, tutorials or documentation, relying solely on my own skills and knowledge acquired from UiPath Academy to demonstrate problem-solving abilities.
 
 ### Points I learned:
 - I should copy all of the default data and make modifications in another sheet or file to avoid data loss.
