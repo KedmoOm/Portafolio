@@ -47,7 +47,7 @@ El objetivo de este proyecto de automatización es extraer datos de productos, i
 
 - El proyecto debe funcionar y dejar un archivo Excel en la carpeta "Output".
 - Este proyecto debe funcionar con otros productos de Amazon.com (solo se necesita cambiar la URL o ruta).
-- Este proyecto puede fallar en otros sitios web debido a sus estructuras diferentes.
+- Este proyecto puede fallar en otros sitios web debido a que manejan estructuras diferentes.
 
 ***
 ## Use Case: Automating Product Data Extraction from an E-Commerce Website
