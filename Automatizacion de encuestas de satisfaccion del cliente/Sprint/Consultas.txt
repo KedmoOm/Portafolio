@@ -1,0 +1,28 @@
+- **Total de Respuestas y Promedio de Satisfacción**:
+    
+    ```sql
+    SELECT COUNT(*) AS TotalRespuestas, ROUND(AVG(Puntuacion)) AS PromedioSatisfaccion
+    FROM SatisfaccionCLiente;
+    ```
+    
+- **Identificación de Productos con Baja Satisfacción**:
+    
+    ```sql
+    SELECT Producto_Servicio, COUNT(*), AVG(Puntuacion)
+    FROM SatisfaccionCliente
+    GROUP BY Producto_Servicio
+    HAVING AVG(Puntuacion) < 3;
+    ```
+    
+- Total de personas que recomiendan y personas que no recomiendan, para una futura grafica:
+    
+    ```sql
+    SELECT Recomienda_Producto, COUNT(*) AS TotalRespuestas 
+    FROM SatisfaccionCliente GROUP BY Recomienda_Producto;
+    ```
+    
+- Productos que tiene puntuacion igual o mayor a 4 y recomiendan (1= Si, 2 = No):
+	
+SELECT Producto_Servicio, Puntuacion, Recomienda_Producto, 
+COUNT(*) AS TotalRespuestas FROM SatisfaccionCliente
+WHERE Puntuacion >= 4 AND Recomienda_Producto = 1 GROUP BY Producto_Servicio, Puntuacion, Recomienda_Producto;
