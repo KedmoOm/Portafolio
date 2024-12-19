@@ -1,4 +1,4 @@
-Video de creacion del proyecto: https://youtu.be/XO7dceUiBAs
+Video de creación del proyecto: https://youtu.be/XO7dceUiBAs
 
 ## Caso de Uso: Automatización de Satisfacción del Cliente 🚀
 
