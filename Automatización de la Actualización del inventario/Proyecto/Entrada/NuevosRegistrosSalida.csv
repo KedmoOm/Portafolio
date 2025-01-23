@@ -1,0 +1,101 @@
+FechaSalida,Nombre,Descripcion,CantidadVendida,PrecioUnitario,Cliente,Motivo,NumeroFactura,MetodoEnvio
+9:07 PM,Periodico,Gris,26,11063.00,TecnoPiece,Devolucion,80293,Carro
+2:36 AM,Periodico,Blanco,94,15816.00,Emergencias SOP,Venta,1223,Avion
+11:07 PM,Cartulina,Morado,17,19741.00,DRT,Venta,47253,Camion
+6:29 AM,Impresoras,Gris,91,2291.00,Camillo torres,Venta,47427,Carro
+4:04 AM,Mouse,Pequeño,62,17016.00,Patricia Fernanda,Venta,17033,Camion
+5:49 PM,Mouse,Negro,20,5950.00,Camillo torres,Devolucion,34170,Camion
+12:10 PM,Papel,Grande,14,14174.00,Alex smith,Venta,32825,Carro
+5:00 PM,Mouse,Morado,61,15028.00,Agencia de consultoria SP,Venta,39553,Avion
+9:38 AM,Impresoras,Morado,60,14407.00,TecnoPiece,Venta,7579,Camion
+12:22 AM,Impresoras,Gris,98,530.00,Fidel Pontilla,Venta,12210,Avion
+11:33 AM,Tinta,Morado,51,9174.00,TecnoPiece,Devolucion,76588,Carro
+6:20 PM,Tinta,Largo,26,18413.00,TecnoPiece,Venta,73995,Camion
+8:55 AM,Impresoras,Negro,1,11790.00,Fidel Pontilla,Devolucion,76997,Avion
+9:59 AM,Impresoras,Pequeño,43,4401.00,TecnoPiece,Venta,98622,Carro
+6:44 PM,Mouse,Pequeño,45,17653.00,DigitalSolution,Devolucion,42385,Camion
+1:54 AM,Periodico,Negro,22,4013.00,Alex smith,Venta,77037,Carro
+2:11 PM,Monitor,Blanco,48,4045.00,Agencia de consultoria SP,Venta,47683,Avion
+12:32 AM,Mouse,Gris,72,911.00,TecnoPiece,Venta,45845,Carro
+1:35 AM,Cartulina,Largo,18,8242.00,IntelComputing,Venta,85762,Camion
+10:09 PM,Cartulina,Largo,68,7594.00,IntelComputing,Venta,34859,Avion
+5:17 PM,Monitor,Grande,61,15867.00,IntelComputing,Devolucion,27710,Camion
+5:00 AM,Periodico,Gris,51,15877.00,Alex smith,Devolucion,59682,Camion
+2:03 PM,Monitor,Blanco,6,5245.00,DRT,Devolucion,52641,Avion
+10:43 PM,Impresoras,Negro,29,3990.00,DigitalSolution,Venta,11718,Avion
+7:27 AM,Cartulina,Gris,66,6883.00,TecnoPiece,Venta,20457,Carro
+9:57 AM,Impresoras,Largo,24,16238.00,DigitalSolution,Devolucion,88252,Carro
+12:03 PM,Cartulina,Grande,45,9927.00,CompuTech,Venta,15915,Avion
+2:03 AM,Impresoras,Morado,49,15264.00,DigitalSolution,Venta,61240,Carro
+1:18 PM,Impresoras,Blanco,5,16991.00,TecnoPiece,Venta,12875,Avion
+12:38 AM,Tinta,Blanco,61,9433.00,Emergencias SOP,Devolucion,50580,Carro
+10:39 PM,Tinta,Pequeño,25,15347.00,Alex smith,Venta,25850,Avion
+4:52 PM,Monitor,Gris,82,3210.00,Rodrigo de la Cruz,Venta,54923,Carro
+2:32 AM,Cartulina,Blanco,3,15592.00,Emergencias SOP,Venta,91555,Avion
+5:21 PM,Periodico,Morado,39,15083.00,TecnoPiece,Devolucion,20077,Carro
+10:44 AM,Periodico,Morado,53,14121.00,Alex smith,Venta,6207,Avion
+6:36 PM,Cartulina,Negro,2,17196.00,Patricia Fernanda,Venta,57113,Avion
+10:29 AM,Mouse,Grande,24,7051.00,Patricia Fernanda,Venta,17564,Camion
+5:12 AM,Periodico,Gris,65,4009.00,IntelComputing,Venta,47018,Camion
+8:36 PM,Cartulina,Pequeño,20,1961.00,DRT,Venta,24168,Avion
+8:55 PM,Mouse,Negro,40,8638.00,DRT,Venta,74107,Camion
+5:11 PM,Tinta,Pequeño,10,18014.00,Rodrigo de la Cruz,Devolucion,77291,Avion
+3:49 AM,Impresoras,Largo,49,2257.00,CompuTech,Venta,62418,Camion
+1:59 AM,Tinta,Pequeño,2,10682.00,Patricia Fernanda,Devolucion,61435,Avion
+2:57 PM,Periodico,Pequeño,54,16622.00,DigitalSolution,Venta,42462,Carro
+5:26 PM,Mouse,Negro,4,5515.00,DigitalSolution,Devolucion,68843,Avion
+11:06 AM,Tinta,Pequeño,59,10063.00,Agencia de consultoria SP,Venta,11122,Carro
+9:01 AM,Impresoras,Morado,32,10219.00,Patricia Fernanda,Venta,19689,Carro
+2:19 PM,Impresoras,Grande,11,12066.00,DRT,Devolucion,12320,Camion
+4:49 PM,Papel,Negro,43,7912.00,DRT,Venta,84121,Camion
+12:56 AM,Cartulina,Pequeño,31,13081.00,IntelComputing,Devolucion,60966,Camion
+10:44 PM,Mouse,Blanco,61,15482.00,TecnoPiece,Venta,93810,Camion
+1:17 PM,Cartulina,Blanco,97,1920.00,DigitalSolution,Devolucion,92204,Camion
+8:46 AM,Mouse,Largo,57,3379.00,DRT,Venta,77688,Avion
+11:44 AM,Cartulina,Blanco,63,7897.00,Alex smith,Devolucion,90506,Camion
+11:41 PM,Periodico,Blanco,28,12981.00,Emergencias SOP,Venta,70345,Camion
+2:00 AM,Monitor,Blanco,52,8588.00,Camillo torres,Devolucion,77951,Carro
+12:32 AM,Monitor,Largo,43,945.00,Rodrigo de la Cruz,Venta,72445,Camion
+10:47 PM,Mouse,Negro,94,11275.00,Fidel Pontilla,Venta,60867,Carro
+5:00 PM,Impresoras,Blanco,41,12282.00,Alex smith,Devolucion,36875,Avion
+3:50 AM,Impresoras,Negro,39,9843.00,Fidel Pontilla,Venta,85880,Avion
+2:42 AM,Mouse,Grande,63,5336.00,Alex smith,Venta,72797,Carro
+5:20 PM,Cartulina,Pequeño,33,5896.00,Patricia Fernanda,Venta,25144,Avion
+7:58 PM,Tinta,Negro,72,17262.00,TecnoPiece,Venta,93165,Carro
+12:28 AM,Monitor,Blanco,36,5273.00,Agencia de consultoria SP,Devolucion,99650,Camion
+12:29 PM,Impresoras,Grande,2,5305.00,Emergencias SOP,Venta,75183,Camion
+9:17 AM,Periodico,Morado,46,18100.00,DigitalSolution,Devolucion,32952,Avion
+8:02 AM,Mouse,Pequeño,7,6465.00,Emergencias SOP,Venta,29131,Carro
+8:41 AM,Monitor,Negro,99,12479.00,DigitalSolution,Venta,79288,Avion
+11:44 AM,Mouse,Blanco,46,17830.00,Fidel Pontilla,Devolucion,80147,Carro
+12:24 PM,Cartulina,Morado,32,10412.00,Fidel Pontilla,Venta,43432,Carro
+10:19 PM,Monitor,Blanco,66,14605.00,Rodrigo de la Cruz,Devolucion,89894,Avion
+10:07 AM,Tinta,Blanco,80,7452.00,Rodrigo de la Cruz,Venta,32070,Camion
+2:19 PM,Monitor,Grande,75,2206.00,Patricia Fernanda,Venta,49257,Avion
+5:55 AM,Cartulina,Negro,41,1087.00,IntelComputing,Venta,18405,Avion
+12:07 PM,Impresoras,Blanco,57,11551.00,Fidel Pontilla,Devolucion,94245,Camion
+12:26 AM,Papel,Morado,65,16522.00,DRT,Devolucion,32677,Camion
+7:14 AM,Cartulina,Largo,53,9137.00,TecnoPiece,Venta,9589,Carro
+7:27 AM,Tinta,Pequeño,94,9362.00,IntelComputing,Venta,56559,Camion
+7:59 PM,Mouse,Largo,20,14552.00,Patricia Fernanda,Devolucion,36190,Camion
+12:41 AM,Cartulina,Morado,36,19250.00,Patricia Fernanda,Devolucion,71502,Camion
+9:19 AM,Tinta,Morado,32,7247.00,Fidel Pontilla,Devolucion,22315,Camion
+12:33 AM,Impresoras,Morado,25,8509.00,Camillo torres,Devolucion,50189,Carro
+2:41 PM,Tinta,Gris,67,1608.00,Rodrigo de la Cruz,Venta,8061,Carro
+6:13 PM,Mouse,Negro,82,5765.00,Camillo torres,Venta,48139,Camion
+8:20 AM,Mouse,Largo,4,7995.00,TecnoPiece,Venta,42981,Carro
+8:01 PM,Mouse,Pequeño,96,16700.00,Patricia Fernanda,Venta,24979,Avion
+8:22 AM,Mouse,Blanco,77,10066.00,Patricia Fernanda,Venta,59312,Carro
+7:42 AM,Cartulina,Grande,29,18630.00,Fidel Pontilla,Devolucion,424,Avion
+12:21 PM,Monitor,Blanco,22,13540.00,Fidel Pontilla,Venta,44359,Avion
+10:42 PM,Cartulina,Pequeño,75,12729.00,CompuTech,Venta,17973,Camion
+11:58 AM,Tinta,Blanco,17,1298.00,Rodrigo de la Cruz,Devolucion,30873,Carro
+10:25 AM,Cartulina,Grande,20,2475.00,Rodrigo de la Cruz,Venta,90588,Camion
+1:38 AM,Periodico,Grande,51,1240.00,Rodrigo de la Cruz,Venta,13016,Avion
+3:49 PM,Periodico,Gris,24,9159.00,Camillo torres,Devolucion,88549,Camion
+4:13 PM,Impresoras,Pequeño,74,11935.00,DigitalSolution,Devolucion,59371,Carro
+8:52 AM,Papel,Negro,86,16858.00,IntelComputing,Venta,91522,Avion
+2:58 AM,Periodico,Gris,42,9074.00,Emergencias SOP,Devolucion,2374,Avion
+9:25 AM,Impresoras,Gris,56,17085.00,Camillo torres,Devolucion,5333,Camion
+10:28 PM,Monitor,Largo,61,4562.00,Emergencias SOP,Venta,22733,Avion
+1:34 PM,Periodico,Negro,53,3059.00,CompuTech,Venta,49661,Avion
