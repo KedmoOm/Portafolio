@@ -13,7 +13,7 @@ Este caso de uso aborda la **automatización del proceso de actualización del i
 
 - **Microsoft Access**: Para la gestión de la base de datos.
 - **UiPath Studio X**: Para la automatización del proceso.
-- [**generaterandomdata.com**](http://generaterandomdata.com/): Para la generación de datos ficticios utilizados en pruebas.
+- [**generatedata**](http://generaterandomdata.com/): Para la generación de datos ficticios utilizados en pruebas.
 - **Trello**: Para la organización de tareas y prioridades del proyecto.
 - **Microsoft Excel**: Para la manipulación y modificación de datos.
 
